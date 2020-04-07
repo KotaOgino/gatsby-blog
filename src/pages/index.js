@@ -9,6 +9,7 @@ const Wrapper = styled.div`
   padding: 4rem 0 2rem 0;
   border-bottom: 1px solid gray;
   h3 {
+    font-weight: 400;
     margin-top: 0;
   }
   h3 a {
