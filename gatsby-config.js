@@ -3,12 +3,12 @@ module.exports = {
     title: `オキツのブログ`,
     author: {
       name: `オキツ`,
-      summary: `University student in Kyoto`,
+      summary: `京都で社会福祉を学ぶ大学5年生`,
     },
     description: `ミーハーを地で行く系男子大学生の備忘録`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `オキツ`,
     },
   },
   plugins: [
