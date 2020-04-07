@@ -39,6 +39,7 @@ const Wrapper = styled.div `
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 9999;
     width: 100%;
     font-weight: 700;
     font-size: 1rem;
