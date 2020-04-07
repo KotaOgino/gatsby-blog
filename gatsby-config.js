@@ -64,7 +64,7 @@ module.exports = {
         short_name: `オキツのブログ`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#006e54`,
         display: `minimal-ui`,
         icon: `content/assets/kota_ogino.jpg`,
       },
