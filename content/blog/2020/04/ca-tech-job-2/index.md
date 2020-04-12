@@ -5,7 +5,7 @@ description: サイバーエージェントのCA Tech JOBという長期就業�
 slug: ca-intern
 ---
 
-前回の記事、[CA Tech JOB に参加してみて in サイバーエージェント(後篇)](https://okitsublog.com/2020/04/CA%20Tech%20JOB%20%E3%81%AB%E5%8F%82%E5%8A%A0%E3%81%97%E3%81%A6%E3%81%BF%E3%81%A6%C2%A0in%20CyberAgent/)の続きになります。まだ前篇の記事を見ていないという方は是非ご一読ください！
+前回の記事、[CA Tech JOB に参加してみて in サイバーエージェント(後篇)](https://okitsublog.com/2020/04/ca-tech-job-1/)の続きになります。まだ前篇の記事を見ていないという方は是非ご一読ください！
 
 ##株式会社CAM
 
