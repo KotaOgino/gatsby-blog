@@ -7,6 +7,7 @@ import SEO from "../../components/seo"
 import Wrapper from "./style.js"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
+  console.log(data);
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext

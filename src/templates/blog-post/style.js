@@ -9,8 +9,16 @@ const Wrapper = styled.div `
   h6{
     font-weight: 400;
   }
+  a {
+    color: #006e54;
+    text-decoration: none;
+  }
+  p {
+    line-height: 2;
+  }
   h1{
     margin: 4rem auto;
+    color: #006e54;
   }
   h2 {
     font-size: 1.4rem;
@@ -55,9 +63,6 @@ const Wrapper = styled.div `
     list-style: none;
     padding: 0;
     margin: 2rem 0;
-  }
-  .nav__lists a{
-    color: #006e54;
   }
   @media screen and (max-width: 780px) {
     .article {
