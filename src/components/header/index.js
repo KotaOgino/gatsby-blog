@@ -2,20 +2,33 @@ import React from "react"
 import {Link} from "gatsby"
 import Wrapper from "./style.js"
 
-const Header = props => {
-  console.log(props);
+const BlogHeader = props => {
+
+  const rootPath = `${__PATH_PREFIX__}/`
+  let header;
+
+  if (props.location.pathname === rootPath) {
+    header = (
+      <div>
+        <h1 className="isHome">
+          {props.title}
+          <span className="description">{props.description}</span>
+        </h1>
+      </div>
+  )
+  } else {
+    header = (<h3 className="notHome">
+      <Link to={`/`}>
+        {props.title}
+      </Link>
+    </h3>)
+  }
+
   return(
     <Wrapper>
-          <h1 className="isHome">
-            <Link style={{
-                boxShadow: `none`,
-                color: `inherit`
-              }} to={`/`}>
-              okitsu's blog
-            </Link>
-          </h1>
+      {header}
     </Wrapper>
   )
 }
 
-export default Header
+export default BlogHeader
