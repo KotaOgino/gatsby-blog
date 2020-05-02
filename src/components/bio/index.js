@@ -50,10 +50,10 @@ const Bio = () => {
         専攻：社会福祉
       </p>
       <p>
-        好きな日本酒：玉川（京都）・南部美人（岩手）
+        好きな日本酒：玉川（京都）・久保田（新潟）
       </p>
       <p className="bio__last">
-        座右の銘： Done is better than perfect
+        愛車： Ninja400(2014)
       </p>
     </Wrapper>
   )
