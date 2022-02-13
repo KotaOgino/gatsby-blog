@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 const Wrapper = styled.div `
-
   main{
     background-color: #fffeff;
     color: #16160e;
@@ -24,6 +23,9 @@ const Wrapper = styled.div `
       background-color: #020411;
       color: #e4e4e4;
     }
+	html {
+	  background-color: rgb(2, 4, 17);
+	}
   }
 `
 

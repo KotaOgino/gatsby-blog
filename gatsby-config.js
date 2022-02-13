@@ -66,7 +66,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#006e54`,
         display: `minimal-ui`,
-        icon: `content/assets/kota_ogino.jpg`,
+        icon: `content/assets/okitsu_icon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,

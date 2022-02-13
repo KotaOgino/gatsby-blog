@@ -14,7 +14,7 @@ import Wrapper from "./style.js"
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
-      avatar: file(absolutePath: { regex: "/kota_ogino.jpg/" }) {
+      avatar: file(absolutePath: { regex: "/okitsu_icon.png/" }) {
         childImageSharp {
           fixed(width: 100, height: 100) {
             ...GatsbyImageSharpFixed
@@ -47,13 +47,13 @@ const Bio = () => {
         ブログの主：<strong>{author.name}</strong>
       </p>
       <p>
-        専攻：社会福祉
+        職業：Webエンジニア
       </p>
       <p>
-        好きな日本酒：玉川（京都）・久保田（新潟）
+        好きな日本酒：空（愛知）・新政（秋田）
       </p>
       <p className="bio__last">
-        愛車： Ninja400(2014)
+        愛車：  Tracer900GT(2018)
       </p>
     </Wrapper>
   )
