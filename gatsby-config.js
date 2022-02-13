@@ -3,9 +3,9 @@ module.exports = {
     title: `オキツのブログ`,
     author: {
       name: `オキツ`,
-      summary: `京都で社会福祉を学ぶ大学5年生`,
+      summary: `東三河出身のえんじにあ`,
     },
-    description: `ミーハーを地で行く系男子大学生の備忘録`,
+    description: `ミーハーを地で行く一般男性の備忘録`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `オキツ`,
